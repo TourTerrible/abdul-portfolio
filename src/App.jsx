@@ -143,7 +143,7 @@ function Portfolio() {
 
       <section id="contact" className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="space-y-4">
-          <p className="text-gray-300">Like quantified thinking, clean infra, and a sport‑driven mindset? Follow along or say hi.</p>
+          <p className="text-gray-300">Like quantified thinking, software engineering and a sport‑driven mindset? Follow along or say hi.</p>
           <div className="flex flex-wrap gap-3">
             {SOCIALS.map(({ name, href, icon: Icon }) => (
               <a key={name} href={href} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-2xl border border-gray-800 px-4 py-2 text-sm text-gray-300 hover:border-gray-600">
@@ -158,7 +158,7 @@ function Portfolio() {
       </section>
 
       <footer className="py-12 border-t border-gray-800 text-sm text-gray-500 text-center">
-        <div>© {new Date().getFullYear()} Abdul Ahad — Built with React + Tailwind</div>
+        <div>© {new Date().getFullYear()} Abdul Ahad — vibe coded with GPT-5</div>
       </footer>
     </div>
   );
