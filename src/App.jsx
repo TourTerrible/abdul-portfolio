@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ArrowRight, Twitter, Mail, ExternalLink, Trophy, Dumbbell, GraduationCap, Briefcase, Activity, ArrowUpRight } from "lucide-react";
 import { motion } from "framer-motion";
+import { Analytics } from "@vercel/analytics/react";
 import Details from "./Details";
 import XLogo from "./XLogo";
 
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/" element={<Portfolio />} />
         <Route path="/details" element={<Details />} />
       </Routes>
+      <Analytics />
     </Router>
   );
 }
