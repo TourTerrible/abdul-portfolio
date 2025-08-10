@@ -69,7 +69,7 @@ function Portfolio() {
             <ul className="space-y-4 text-gray-300">
               <li className="flex gap-3"><Briefcase className="h-5 w-5 text-gray-400" /> Quant strategist & developer at Goldman Sachs</li>
               <li className="flex gap-3"><GraduationCap className="h-5 w-5 text-gray-400" /> Undergrad from IIT Guwahati</li>
-              <li className="flex gap-3"><Dumbbell className="h-5 w-5 text-gray-400" /> I run and actively workout</li>
+              <li className="flex gap-3"><Dumbbell className="h-5 w-5 text-gray-400" /> Running & Strength Training</li>
               <li className="flex gap-3"><Trophy className="h-5 w-5 text-gray-400" /> Table Tennis Nationals (U14)</li>
               <li className="flex gap-3"><ExternalLink className="h-5 w-5 text-gray-400" /> <a href="https://medium.com/inplace/interning-at-amazon-abdul-ahad-ef2565dd8e66" target="_blank" rel="noreferrer" className="hover:underline">Interned at Amazon</a></li>
             </ul>
