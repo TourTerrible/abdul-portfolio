@@ -56,7 +56,7 @@ function Portfolio() {
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-3">
               <a href="https://x.com/a_hahahahad" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-2xl border border-gray-700 bg-white text-black px-4 py-2 text-sm font-medium hover:bg-gray-200 transition">
-                Say Hi <XLogo className="h-4 w-4" />
+                Say Hi on <XLogo className="h-4 w-4" />
               </a>
             </div>
           </motion.div>
@@ -67,10 +67,10 @@ function Portfolio() {
         <div className="grid gap-8 md:grid-cols-5">
           <div className="md:col-span-3 space-y-4">
             <ul className="space-y-4 text-gray-300">
-              <li className="flex gap-3"><Briefcase className="h-5 w-5 text-gray-400" /> Quant strategist & developer at Goldman Sachs</li>
+              <li className="flex gap-3"><Briefcase className="h-5 w-5 text-gray-400" /> Quant strategist & developer at an Investment Bank</li>
               <li className="flex gap-3"><GraduationCap className="h-5 w-5 text-gray-400" /> Undergrad from IIT Guwahati</li>
               <li className="flex gap-3"><Dumbbell className="h-5 w-5 text-gray-400" /> Running & Strength Training</li>
-              <li className="flex gap-3"><Trophy className="h-5 w-5 text-gray-400" /> Table Tennis Nationals (U14)</li>
+              <li className="flex gap-3"><Trophy className="h-5 w-5 text-gray-400" /> Table Tennis Nationals</li>
               <li className="flex gap-3"><ExternalLink className="h-5 w-5 text-gray-400" /> <a href="https://medium.com/inplace/interning-at-amazon-abdul-ahad-ef2565dd8e66" target="_blank" rel="noreferrer" className="hover:underline">Interned at Amazon</a></li>
             </ul>
           </div>
@@ -114,7 +114,7 @@ function Portfolio() {
               <ul className="mt-3 space-y-2 text-sm text-gray-300">
                 <li>Nationals (U14) — represented UP at the highest junior level.</li>
                 <li>U-14 NVS National Championship 2015 — Runner-up</li>
-                <li>Defensive attacker — controlled returns + counter-strikes.</li>
+                <li>Retired</li>
               </ul>
             </div>
           </div>
