@@ -145,8 +145,8 @@ function Portfolio() {
               <ul className="mt-3 space-y-2 text-sm text-gray-300">
               
                 <li>Strength: 4x/week. Weekly runs: 1-2</li>
-                <li>Focus: form, progressive overload, diet, recovery.</li>
-                <li>5K sub-30, aiming for half marathon.</li>
+                <li>Aiming for half marathon.</li>
+                <li><a className="underline hover:no-underline" href="https://ahahahahad.substack.com/p/why-i-train" target="_blank" rel="noreferrer">My training philosophy on why i train</a>.</li>
                 <li>Tracking on <a className="underline hover:no-underline" href="https://www.strava.com/athletes/173060047" target="_blank" rel="noreferrer">Strava</a>.</li>
               </ul>
             </div>
