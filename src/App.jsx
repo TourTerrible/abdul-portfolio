@@ -1,10 +1,26 @@
 import React from "react";
+import { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ArrowRight, Twitter, Mail, ExternalLink, Trophy, Dumbbell, GraduationCap, Briefcase, Activity, ArrowUpRight } from "lucide-react";
 import { motion } from "framer-motion";
 import { Analytics } from "@vercel/analytics/react";
 import Details from "./Details";
 import XLogo from "./XLogo";
+
+function LiveTime() {
+  const [time, setTime] = useState(new Date());
+
+  useEffect(() => {
+    const timer = setInterval(() => setTime(new Date()), 1000);
+    return () => clearInterval(timer);
+  }, []);
+
+  return (
+    <time dateTime={time.toISOString()}>
+      From {time.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", second: "2-digit" })} — Consider me retired
+    </time>
+  );
+}
 
 const SOCIALS = [
   { name: "X", href: "https://x.com/a_hahahahad", icon: XLogo },
@@ -95,10 +111,9 @@ function Portfolio() {
                 <Briefcase className="h-5 w-5 text-gray-500" />
               </div>
               <ul className="mt-3 space-y-2 text-sm text-gray-300">
-                <li>Optimising Portfolios for 50000+ clients</li>
-                <li>Saved 20–30% in annual taxes via tax-loss harvesting optimization strategies</li>
-                <li>A $150M+ simulation engine guiding real-time asset decisions.</li>
-                <li>Halved backtest time for 20+ years of market data</li>
+                <li>Quant strategist cum developer at an Investment Bank</li>
+                <li>I do some quant stuff</li>
+                <li>I do some dev stuff as well</li>
               </ul>
             </div>
           </div>
@@ -112,9 +127,9 @@ function Portfolio() {
                 <Trophy className="h-5 w-5 text-gray-500" />
               </div>
               <ul className="mt-3 space-y-2 text-sm text-gray-300">
-                <li>Nationals (U14) — represented UP at the highest junior level.</li>
+                <li>Nationals (U14) - represented UP at the highest junior level.</li>
                 <li>U-14 NVS National Championship 2015 — Runner-up</li>
-                <li>Retired</li>
+                 <li><LiveTime /></li>
               </ul>
             </div>
           </div>
