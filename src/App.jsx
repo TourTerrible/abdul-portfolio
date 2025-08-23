@@ -146,7 +146,7 @@ function Portfolio() {
               
                 <li>Strength: 4x/week. Weekly runs: 1-2</li>
                 <li>Aiming for half marathon.</li>
-                <li><a className="underline hover:no-underline" href="https://ahahahahad.substack.com/p/why-i-train" target="_blank" rel="noreferrer">My training philosophy on why i train</a>.</li>
+                <li><a className="underline hover:no-underline" href="https://ahahahahad.substack.com/p/why-i-train" target="_blank" rel="noreferrer">My training philosophy</a> on why i train</li>
                 <li>Tracking on <a className="underline hover:no-underline" href="https://www.strava.com/athletes/173060047" target="_blank" rel="noreferrer">Strava</a>.</li>
               </ul>
             </div>
