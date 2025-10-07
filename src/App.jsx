@@ -68,7 +68,7 @@ function Portfolio() {
               Quant Strategist & Developer
             </h1>
             <p className="mt-5 text-lg text-gray-400">
-            Undergrad from IIT Guwahati — I design, test, and deploy portfolio optimization strategies from research and backtesting to live production.
+            Undergrad from IIT Guwahati — Engineering end-to-end quantitative systems, from portfolio optimization strategies and trading infrastructure to real-time analytics, modeling, and deployment.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-3">
               <a href="https://x.com/a_hahahahad" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-2xl border border-gray-700 bg-white text-black px-4 py-2 text-sm font-medium hover:bg-gray-200 transition">
@@ -85,9 +85,9 @@ function Portfolio() {
             <ul className="space-y-4 text-gray-300">
               <li className="flex gap-3"><Briefcase className="h-5 w-5 text-gray-400" /> Quant strategist & developer at an Investment Bank</li>
               <li className="flex gap-3"><GraduationCap className="h-5 w-5 text-gray-400" /> Undergrad from IIT Guwahati</li>
-              <li className="flex gap-3"><Dumbbell className="h-5 w-5 text-gray-400" /> Running & Strength Training</li>
-              <li className="flex gap-3"><Trophy className="h-5 w-5 text-gray-400" /> Table Tennis Nationals</li>
               <li className="flex gap-3"><ExternalLink className="h-5 w-5 text-gray-400" /> <a href="https://medium.com/inplace/interning-at-amazon-abdul-ahad-ef2565dd8e66" target="_blank" rel="noreferrer" className="hover:underline">Interned at Amazon</a></li>
+              <li className="flex gap-3"><Dumbbell className="h-5 w-5 text-gray-400" /> Running & Strength Training</li>
+              <li className="flex gap-3"><Trophy className="h-5 w-5 text-gray-400" /> Table Tennis Amateur (U14 Nationals)</li>
             </ul>
           </div>
           <div className="md:col-span-2">
@@ -112,7 +112,7 @@ function Portfolio() {
               </div>
               <ul className="mt-3 space-y-2 text-sm text-gray-300">
                 <li>Quant strategist cum developer at an Investment Bank</li>
-                <li>I do some quant stuff</li>
+                <li>I do some quant-strats stuff</li>
                 <li>I do some dev stuff as well</li>
               </ul>
             </div>
@@ -158,7 +158,9 @@ function Portfolio() {
 
       <section id="contact" className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="space-y-4">
-          <p className="text-gray-300">Like quantified thinking, software engineering and a sport‑driven mindset? Follow along or say hi.</p>
+          <p className="text-gray-300">
+  Made it all the way down here? Say hi if you see me — I’m friendlier than I look (just a bit shy).  
+  Or do the normal thing and <a href="https://www.instagram.com/a_hahahahad/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-100">stalk me on Insta</a>.</p>
           <div className="flex flex-wrap gap-3">
             {SOCIALS.map(({ name, href, icon: Icon }) => (
               <a key={name} href={href} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-2xl border border-gray-800 px-4 py-2 text-sm text-gray-300 hover:border-gray-600">
