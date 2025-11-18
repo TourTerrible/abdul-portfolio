@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { Analytics } from "@vercel/analytics/react";
 import Details from "./Details";
 import XLogo from "./XLogo";
+import Callback from "./Callback";
 
 function LiveTime() {
   const [time, setTime] = useState(new Date());
@@ -34,6 +35,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Portfolio />} />
         <Route path="/details" element={<Details />} />
+        <Route path="/callback" element={<Callback />} />
       </Routes>
       <Analytics />
     </Router>
